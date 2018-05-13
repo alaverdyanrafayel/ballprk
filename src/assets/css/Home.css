@@ -1,0 +1,359 @@
+.content {
+  display: flex;
+}
+
+.left-content {
+  width: 25%;
+  box-shadow: 2px 0px 0px 0px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.right-content {
+  display: flex;
+  width: 75%;
+  background: #e7e7e7;
+}
+
+.partner-details-header {
+  position: relative;
+  width: 100%;
+  height: 220px;
+}
+
+.partner-details-header .main-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  height: 30%;
+  left: -3%;
+  bottom: -13%;
+}
+
+.follow-button {
+  position: absolute;
+  bottom: 11px;
+  right: 6%;
+  width: 30%;
+  height: 35px;
+  border: 1px solid #000;
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+  background: #ffffff;
+  color: #b1b1b1;
+}
+
+.profile-follow-button {
+  position: absolute;
+  bottom: 43%;
+  right: 6%;
+  width: 26%;
+  height: 30px;
+  border: 1px solid #000;
+  font-size: 0.75em;
+  font-weight: 300;
+  cursor: pointer;
+  background: #ffffff;
+  color: #b1b1b1;
+}
+
+.team-details {
+  width: 100%;
+  margin-top: 50px;
+}
+.team-details > .centered-content {
+  text-align: center;
+}
+
+.team-details .centered-content > h3 {
+  color: #8d8d8d;
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+.team-details .centered-content > p {
+  color: #aeaeae;
+  font-size: 0.85em;
+  margin-top: 2px;
+}
+
+.network-items {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.network-items span {
+  display: block;
+}
+.network-item span:nth-child(1) {
+  font-size: 1em;
+  color: #6d6d6d;
+}
+.network-item span:nth-child(2) {
+  color: #989898;
+  font-size: 0.75em;
+}
+
+.team-details .message-button {
+  margin: 25px auto;
+  cursor: pointer;
+  background: #3e3737;
+  font-size: 0.75em;
+  color: #ffffff;
+  width: 70%;
+  height: 30px;
+  border: none;
+}
+
+.team-details .description {
+  width: 84%;
+  margin: auto;
+}
+
+.team-details .description > a {
+  text-decoration: none;
+  font-size: 0.85em;
+  color: #a6b7d9;
+}
+.team-details .description > p {
+  font-size: 0.85em;
+  color: #919191;
+}
+.team-details .partners {
+  width: 84%;
+  text-align: center;
+  margin: auto;
+}
+.fa-globe {
+  color: #808080;
+  padding-right: 10px;
+}
+
+.partners h3 {
+  font-size: 0.85em;
+  color: #6d6d6d;
+}
+
+.partner-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 15px auto;
+}
+
+.partner-icons > img {
+  height: 40px;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  display: block;
+  min-height: 100vh;
+}
+
+.right-side-nav {
+  display: flex;
+  width: 100%;
+  background: #ffffff;
+}
+
+.right-side-nav .links {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+.right-side-nav .links .link {
+  text-decoration: none;
+  /* padding-bottom: 5px; */
+  color: #7c7c7c;
+  border-bottom: 4px solid #ffffff;
+  padding-top: 20px;
+  padding-bottom: 16px;
+}
+/* .right-side-nav > ul {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 20px auto;
+}
+
+.right-side-nav > ul > li {
+  font-size: 0.85em;
+  padding-bottom: 31px;
+  color: #7c7c7c;
+  cursor: pointer;
+} */
+
+.right-side-nav .links .link:hover {
+  color: black;
+  border-bottom: 4px solid black;
+}
+
+.athlets {
+  width: 94%;
+  margin: auto;
+}
+
+.options {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #aeaeae;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.option-buttons {
+  width: 97%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.option-buttons button {
+  background: #ffffff;
+  color: #989898;
+  height: 35px;
+  cursor: pointer;
+}
+
+.option-buttons button:nth-child(1) {
+  margin-right: 8px;
+}
+
+.search-athletes {
+  position: relative;
+  display: flex;
+}
+
+.search-athletes input {
+  flex-grow: 1;
+  height: 35px;
+  padding-left: 34px;
+}
+.search-athletes .fa-search {
+  position: absolute;
+  bottom: 12px;
+  color: gray;
+  padding-left: 15px;
+}
+.athlet {
+  position: relative;
+  width: 32%;
+  height: 250px;
+  margin-top: 15px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  margin-right: 1.66%;
+}
+.athlet:nth-child(3n + 3) {
+  margin-right: 0;
+}
+.athlet-pic {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+.image-logo {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 33%;
+  left: 5%;
+  object-fit: cover;
+}
+.team-logo {
+  position: absolute;
+  width: 38px;
+  height: 21px;
+  bottom: 32%;
+  left: 21%;
+}
+.athlet-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.profile-information {
+  text-align: center;
+  line-height: 0px;
+}
+.profile-information h4 {
+  color: #7f7f7f;
+  font-size: 0.8em;
+}
+.profile-information > p {
+  color: #7f7f7f;
+  font-size: 0.5em;
+}
+.profile-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.profile-buttons .btn-msg {
+  color: #fff;
+  padding: 5px 0;
+  font-size: 0.8em;
+  margin: 0 5px;
+  width: 40%;
+  background: #3f3737;
+  border: none;
+}
+.profile-buttons .btn-session {
+  color: #fff;
+  padding: 5px 0;
+  font-size: 0.8em;
+  margin: 0 5px;
+  width: 40%;
+  background: #9e3533;
+  border: none;
+}
+@media (max-width: 1024px) {
+  .left-content {
+    width: 40%;
+  }
+  .athlet {
+    margin-right: 1.52%;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-content {
+    width: 45%;
+  }
+  .athlet {
+    width: 48%;
+    margin-right: 1.5%;
+  }
+  .right-side-nav .links {
+    width: 93%;
+  }
+}
+
+@media (max-width: 576px) {
+  .content {
+    flex-direction: column;
+  }
+  .left-content {
+    width: 100%;
+  }
+  .right-side-nav .links .link {
+    font-size: 0.8em;
+  }
+  .right-content {
+    width: 100%;
+  }
+  .athlet {
+    width: 100%;
+  }
+}
